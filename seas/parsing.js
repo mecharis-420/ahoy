@@ -3,8 +3,14 @@
 var tags = [
  const tag_name = '"name"';
  const tag_description = '"desc"';
- const file = "ahoyfile";
+ const tag_language = '"lang"';
+ const tag_platform = '"platform"';
 ];
 
 
-SHOW = JSON.parse(tags);
+SHOW = JSON.parse(tags, "ahoyfile");
+
+
+console.log(SHOW);
+
+alert(SHOW);
