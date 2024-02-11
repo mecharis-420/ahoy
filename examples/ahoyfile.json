@@ -13,9 +13,7 @@
   }
   ".ahoy":{
     "parse_verbose":false,
-    "web":true
-
-
+    "webclient":true
   }
  }
 ]
