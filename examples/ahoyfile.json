@@ -1,0 +1,21 @@
+[
+ {
+
+   
+  ".info":{
+    "name":"Example",
+    "desc":"Example Program for Ahoy",
+    "language":"JavaScript",
+    "platform":"Web",
+    "modules":"None"
+
+
+  }
+  ".ahoy":{
+    "parse_verbose":false,
+    "web":true
+
+
+  }
+ }
+]
