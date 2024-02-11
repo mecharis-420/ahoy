@@ -1,4 +1,5 @@
 // Parses the JSON file and looks for keywords, printing out the "desc" and "name" tags
+// Unfinished
 
 var tags = [
  const tag_name = '"name"';
@@ -14,3 +15,4 @@ SHOW = JSON.parse(tags, "ahoyfile");
 console.log(SHOW);
 
 alert(SHOW);
+
