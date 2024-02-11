@@ -1,0 +1,8 @@
+[
+ {
+   "ignore:.sql":true,
+   "ignore:.dll":true,
+   "ignore:.js":false
+   "ignore:/src":false
+ }
+]
