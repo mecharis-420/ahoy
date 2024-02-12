@@ -1,4 +1,4 @@
-package parsing
+package pkg
 
 import (
     "encoding/json"
@@ -12,7 +12,7 @@ type AhoyKeys struct {
     Version string `json:"ver"`
 }
 
-func parsing() {
+func pkg() {
     file, err := os.Open(".ahoyfile")
     if err != nil {
         fmt.Println("Error opening file:", err)
